@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Main {
 
     public static void main(String[] args) {
-        double[] numeros = {1,2,3,4,5};
+        double[] numeros = {1,2,3,4,5,6,7,8}; 
 
          media(numeros);
 
@@ -18,7 +18,7 @@ public class Main {
                 sol+=nums[i];
             }
             sol=sol/nums.length;
-            System.out.println(sol);
+            System.out.println("La mitjana del numeros seleccionats és "+sol);
             return sol;
         }
     }
